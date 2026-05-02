@@ -2,9 +2,9 @@ spring:
   application:
     name: power-stock
   datasource:
-    url: ${DATABASE_URL:jdbc:postgresql://aws-1-ap-northeast-1.pooler.supabase.com:5432/postgres}
-    username: ${DATABASE_USERNAME:postgres.qhcwyirmzumtmxqgffhs}
-    password: ${DATABASE_PASSWORD:NAAHnkKm3C78GqzM}
+    url: ${DATABASE_URL}
+    username: ${DATABASE_USERNAME}
+    password: ${DATABASE_PASSWORD}
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
@@ -21,9 +21,9 @@ spring:
     locations: classpath:db/migration
   data:
     redis:
-      host: ${REDIS_HOST:safe-cardinal-110845.upstash.io}
-      port: ${REDIS_PORT:6379}
-      password: ${REDIS_PASSWORD:gQAAAAAAAbD9AAIgcDFkMmExZjFhMGZjNDY0MzVkODcxZGFhMmM1ZWNlZmY5Ng}
+      host: ${REDIS_HOST}
+      port: ${REDIS_PORT}
+      password: ${REDIS_PASSWORD
 
 jwt:
   secret: ${JWT_SECRET:defaultSecretKeyThatMustBeAtLeast256BitsLongForHS256Algo}
