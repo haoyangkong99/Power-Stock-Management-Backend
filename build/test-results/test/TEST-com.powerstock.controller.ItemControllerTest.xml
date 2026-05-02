@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.powerstock.controller.ItemControllerTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-04-30T14:27:38" hostname="LAPTOP-9K6RG6S3" time="0.639">
+  <properties/>
+  <testcase name="shouldCreateAndRetrieveItem()" classname="com.powerstock.controller.ItemControllerTest" time="0.155"/>
+  <testcase name="shouldRejectDuplicateSku()" classname="com.powerstock.controller.ItemControllerTest" time="0.154"/>
+  <testcase name="shouldSearchItems()" classname="com.powerstock.controller.ItemControllerTest" time="0.184"/>
+  <testcase name="shouldRejectUnauthenticatedAccess()" classname="com.powerstock.controller.ItemControllerTest" time="0.144"/>
+  <system-out><![CDATA[2026-04-30T22:27:38.372+08:00  INFO 25680 --- [power-stock] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.powerstock.controller.ItemControllerTest]: ItemControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:27:38.375+08:00  INFO 25680 --- [power-stock] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.powerstock.PowerStockApplication for test class com.powerstock.controller.ItemControllerTest
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

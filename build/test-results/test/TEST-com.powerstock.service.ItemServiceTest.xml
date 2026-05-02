@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.powerstock.service.ItemServiceTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-04-30T14:27:40" hostname="LAPTOP-9K6RG6S3" time="0.169">
+  <properties/>
+  <testcase name="shouldUpdateItem()" classname="com.powerstock.service.ItemServiceTest" time="0.135"/>
+  <testcase name="shouldThrowWhenItemNotFound()" classname="com.powerstock.service.ItemServiceTest" time="0.003"/>
+  <testcase name="shouldGetItemById()" classname="com.powerstock.service.ItemServiceTest" time="0.001"/>
+  <testcase name="shouldCreateItem()" classname="com.powerstock.service.ItemServiceTest" time="0.003"/>
+  <testcase name="shouldThrowWhenCreatingDuplicateSku()" classname="com.powerstock.service.ItemServiceTest" time="0.004"/>
+  <testcase name="shouldDeleteItem()" classname="com.powerstock.service.ItemServiceTest" time="0.003"/>
+  <testcase name="shouldListItemsPaginated()" classname="com.powerstock.service.ItemServiceTest" time="0.017"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

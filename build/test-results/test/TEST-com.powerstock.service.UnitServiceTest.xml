@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.powerstock.service.UnitServiceTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-04-30T14:27:41" hostname="LAPTOP-9K6RG6S3" time="0.065">
+  <properties/>
+  <testcase name="shouldCreateBaseUnit()" classname="com.powerstock.service.UnitServiceTest" time="0.056"/>
+  <testcase name="shouldConvertQuantity()" classname="com.powerstock.service.UnitServiceTest" time="0.003"/>
+  <testcase name="shouldCreateDerivedUnit()" classname="com.powerstock.service.UnitServiceTest" time="0.003"/>
+  <testcase name="shouldThrowWhenCreatingDuplicateUnit()" classname="com.powerstock.service.UnitServiceTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.powerstock.service.TransactionServiceTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-04-30T14:27:40" hostname="LAPTOP-9K6RG6S3" time="0.198">
+  <properties/>
+  <testcase name="shouldThrowWhenStockOutExceedsAvailable()" classname="com.powerstock.service.TransactionServiceTest" time="0.178"/>
+  <testcase name="shouldProcessStockTransfer()" classname="com.powerstock.service.TransactionServiceTest" time="0.008"/>
+  <testcase name="shouldProcessStockIn()" classname="com.powerstock.service.TransactionServiceTest" time="0.004"/>
+  <testcase name="shouldProcessStockOut()" classname="com.powerstock.service.TransactionServiceTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

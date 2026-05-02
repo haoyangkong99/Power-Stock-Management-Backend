@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.powerstock.service.ReportServiceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-04-30T14:27:40" hostname="LAPTOP-9K6RG6S3" time="0.073">
+  <properties/>
+  <testcase name="shouldReturnEmptyLowStockWhenAllAboveThreshold()" classname="com.powerstock.service.ReportServiceTest" time="0.061"/>
+  <testcase name="shouldReturnLowStockItems()" classname="com.powerstock.service.ReportServiceTest" time="0.004"/>
+  <testcase name="shouldCalculateInventoryValue()" classname="com.powerstock.service.ReportServiceTest" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

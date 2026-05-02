@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.powerstock.service.AlertServiceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-04-30T14:27:39" hostname="LAPTOP-9K6RG6S3" time="0.442">
+  <properties/>
+  <testcase name="shouldPublishLowStockAlert()" classname="com.powerstock.service.AlertServiceTest" time="0.429"/>
+  <testcase name="shouldNotAlertWhenStockAboveReorderLevel()" classname="com.powerstock.service.AlertServiceTest" time="0.005"/>
+  <testcase name="shouldNotAlertWhenReorderLevelIsZero()" classname="com.powerstock.service.AlertServiceTest" time="0.002"/>
+  <system-out><![CDATA[2026-04-30T22:27:40.358+08:00  WARN 25680 --- [power-stock] [    Test worker] com.powerstock.service.AlertService      : Low stock alert: WDG-001 at Main Warehouse - current: 5, reorder level: 10
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
